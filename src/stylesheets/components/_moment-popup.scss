@@ -1,0 +1,52 @@
+// moment_popup
+// -----------------------------------------------------------------------------
+.moment_popup {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: $momentIndex;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  &.active {
+    display: block;
+  }
+}
+.moment_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.moment_img {
+  height: 80vh;
+  width: auto;
+  @include breakpoint(478px) {
+    width: 100vw;
+    height: auto;
+  }
+}
+.music_wrapper {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  background: $grey200;
+}
+.music_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.music_composer {
+  font-weight: 600;
+}
+.music_track {
+  font-size: 14px;
+}

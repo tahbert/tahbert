@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Frenkie de Jong - a Dutch professional footballer",
+    "img": "feed1",
+    "content": "Frenkie de Jong (born 12 May 1997) is a Dutch professional footballer who plays as a midfielder for La Liga club Barcelona and the Netherlands national team. A versatile midfielder, he is known for his vision, passing, dribbling, technique, along with strong defensive abilities and attacking prowess. De Jong has frequently been ranked among the best midfielders in world football",
+    "tags": ["sports", "football", "tech"],
+    "date": "21 | 02 | 2022"
+  },
+  {
+    "id": 2,
+    "title": "Gardenias are evergreen shrubs and small trees growing",
+    "img": "feed2",
+    "content": "Gardenias are evergreen shrubs and small trees growing to 1–15 metres (3.3–49.2 ft) tall. The leaves are opposite or in whorls of three or four, 5–50 centimetres (2.0–19.7 in) long and 3–25 centimetres (1.2–9.8 in) broad, dark green and glossy with a leathery texture. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    "tags": ["hanoi", "cook", "dinner"],
+    "date": "30 | 01 | 2022"
+  },
+  {
+    "id": 3,
+    "title": "Yuna Kim (Korean: 김연아; born September 5, 1990)",
+    "img": "feed3",
+    "content": "Yuna Kim (Korean: 김연아; born September 5, 1990), also credited in eastern name order as Kim Yuna or Kim Yeon-a, is a retired South Korean competitive figure skater. She is the 2010 Olympic champion, the 2014 Olympic silver medalist, a two-time World champion (2009, 2013) the 2009 Four Continents champion, a three-time Grand Prix Final champion, the 2006 World Junior champion, the 2005 Junior Grand Prix Final champion, and a six-time (2003, 2004, 2005, 2006, 2013, 2014) South Korean national champion.",
+    "tags": ["sports", "football", "thao dien"],
+    "date": "10 | 06 | 2022"
+  },
+  {
+    "id": 4,
+    "title": "German-born composer Hans Zimmer is recognized as one of Hollywood's most innovative musical talents.",
+    "img": "feed4",
+    "content": "He featured in the music video for The Buggles' single, which became a worldwide hit and helped usher in a new era of global entertainment as the first music video to be aired on MTV (August 1, 1981). Hans Florian Zimmer was born in Frankfurt am Main, then in West Germany, the son of Brigitte (Weil) and Hans Joachim Zimmer. He entered the world of film music in London during a long collaboration with famed composer and mentor Stanley Myers, which included the film My Beautiful Laundrette (1985). He soon began work on several successful solo projects, including the critically acclaimed A World Apart, and during these years Zimmer pioneered the use of combining old and new musical technologies. Today, this work has earned him the reputation of being the father of integrating the electronic musical world with traditional orchestral arrangements. A turning point in Zimmer's career came in 1988 when he was asked to score Rain Man for director Barry Levinson. The film went on to win the Oscar for Best Picture of the Year and earned Zimmer his first Academy Award Nomination for Best Original Score. The next year, Zimmer composed the score for another Best Picture Oscar recipient, Driving Miss Daisy (1989), starring Jessica Tandy, and Morgan Freeman.",
+    "tags": ["music", "hans zimmer", "german"],
+    "date": "28 | 01 | 2022"
+  }
+]

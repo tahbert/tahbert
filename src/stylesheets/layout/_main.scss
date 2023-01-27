@@ -1,0 +1,164 @@
+// main
+// --------------------------------------------------------------------------------
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 60px 0 0 280px;
+  padding: 4%;
+  transition: all 0.3s;
+  @include breakpoint(1200px) {
+    margin: 60px 0 0 0;
+  }
+  @include breakpoint(1366px) {
+    padding: 4% 8%;
+  }
+  @include breakpoint(1920px) {
+    padding: 4% 16%;
+  }
+  @include breakpoint(478px) {
+    padding: 0 0 16px;
+  }
+  &.home {
+    @include breakpoint(478px) {
+      padding: 16px 0;
+    }
+  }
+}
+// main_cover
+// --------------------------------------------------------------------------------
+.main_cover {
+  position: relative;
+  height: 360px;
+  border-radius: 32px 32px 0 0;
+  @include breakpoint(767px) {
+    height: 280px;
+  }
+  @include breakpoint(601px) {
+    height: 220px;
+  }
+}
+.main_cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 32px 32px 0 0;
+  @include breakpoint(478px) {
+    border-radius: 0px;
+  }
+}
+
+// main_info
+// --------------------------------------------------------------------------------
+.main_info {
+  position: relative;
+  .avatar.big {
+    position: absolute;
+    bottom: -20%;
+    left: 32px;
+    @include breakpoint(767px) {
+      min-width: 180px;
+      min-height: 180px;
+      left: 16px;
+    }
+    @include breakpoint(601px) {
+      left: 50%;
+      bottom: 90px;
+      transform: translateX(-50%);
+    }
+  }
+}
+.main_info_text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 280px; /* 216 + 32 + 32 */
+  @include breakpoint(767px) {
+    margin-left: 212px;
+    margin-top: -12px;
+  }
+  @include breakpoint(601px) {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 64px;
+  }
+}
+.main_info_detail {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+  @include breakpoint(767px) {
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+  }
+  @include breakpoint(601px) {
+    align-items: center;
+  }
+}
+.main_info_job,
+.main_info_rank {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+// main-review
+// --------------------------------------------------------------------------------
+.main-review {
+  font-family: $secondaryFont;
+  @include breakpoint(478px) {
+    padding: 0 16px;
+  }
+}
+
+// main-feed
+// --------------------------------------------------------------------------------
+.main-feed {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+  // padding: 0px;
+  @include breakpoint(991px) {
+    grid-template-columns: 1fr;
+  }
+  @include breakpoint(1366px) {
+    gap: 32px;
+  }
+}
+.main-center {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.main-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  @include breakpoint(991px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  @include breakpoint(601px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  @include breakpoint(478px) {
+    padding: 0 16px;
+  }
+}
+.main-center.activity {
+  gap: 0; /* reset */
+  padding-top: 7px;
+  @include breakpoint(478px) {
+    padding: 0 16px;
+  }
+}
+
+.main-feed.inf {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

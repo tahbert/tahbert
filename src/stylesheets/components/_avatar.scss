@@ -1,0 +1,43 @@
+.avatar {
+  position: relative;
+  min-width: 100px;
+  min-height: 100px;
+  border: 1.2px solid transparent;
+  border-radius: 50%;
+  background-image: linear-gradient($grey50, $grey50),
+    linear-gradient(45deg, $grey900, $primaryColor, $tertiaryColor);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  user-select: none;
+  img {
+    position: absolute;
+    inset: 50%;
+    transform: translate(-50%, -50%);
+    width: 96%;
+    border-radius: 50%;
+  }
+  &:active {
+    min-width: 98px;
+    min-height: 98px;
+  }
+}
+// smalll
+// -----------------------------------------------------------------------------
+.avatar.small {
+  min-width: 40px;
+  min-height: 40px;
+}
+.avatar.small:active {
+  min-width: 38px;
+  min-height: 38px;
+}
+.avatar.small img {
+  width: 92%;
+}
+// big
+// -----------------------------------------------------------------------------
+.avatar.big {
+  min-width: 216px;
+  min-height: 216px;
+  background: $grey50; // remove border
+}

@@ -1,0 +1,93 @@
+// percen
+// -----------------------------------------------------------------------------
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  &.active {
+    display: block;
+  }
+  z-index: $overlayIndex;
+}
+.percen {
+  font-weight: 600;
+  color: $primaryColor;
+}
+.sec-text {
+  color: $primaryColor;
+}
+.date {
+  font-family: $tertiaryFont;
+  font-size: 14px;
+  color: $grey600;
+}
+
+.error-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 10%;
+  h1 {
+    color: $primaryColor;
+  }
+}
+.error_section {
+  padding: 80px 0;
+  color: $primaryColor;
+  text-align: center;
+  background: $grey200;
+}
+.loading_section {
+  padding: 20px 0;
+  text-align: center;
+  font-family: $tertiaryFont;
+  font-size: 20px;
+  font-weight: 600;
+  background: #f2a33b50;
+}
+.loading {
+  padding: 20px 0;
+  text-align: center;
+  font-family: $tertiaryFont;
+  font-size: 20px;
+  font-weight: 600;
+  background: #f2a33b30;
+}
+.not-found {
+  padding: 20px 0;
+  text-align: center;
+  font-family: $tertiaryFont;
+  font-size: 20px;
+  font-weight: 600;
+  color: $primaryColor;
+  background: #bb0e0f20;
+}
+.found {
+  padding: 20px 0;
+  text-align: center;
+  font-family: $tertiaryFont;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  background: #f2a33b30;
+}
+.markdown {
+  display: inline;
+  p {
+    display: inline;
+  }
+  &.active {
+    display: block;
+  }
+}
+.nothing {
+  text-align: center;
+  padding: 20px;
+  color: $primaryColor;
+}

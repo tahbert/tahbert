@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Feeds",
+    "path": "/"
+  },
+  {
+    "id": 2,
+    "title": "Profile",
+    "path": "/profile"
+  },
+  {
+    "id": 3,
+    "title": "Influencers",
+    "path": "/influencers"
+  }
+]

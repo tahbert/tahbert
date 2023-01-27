@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "type": "new law",
+    "date": "20 | 07 | 2022",
+    "desc": "Stop using coffee after 12:00 (from 20/07/22)"
+  },
+  {
+    "id": 2,
+    "type": "new goal",
+    "date": "15 | 05 | 2022",
+    "desc": "40 days preparation for the very tough law. from 20/07/22 - 28/08/22"
+  },
+  {
+    "id": 3,
+    "type": "goal achieved",
+    "date": "15 | 01 | 2022",
+    "desc": "Stop using coffee after 12:00 (from 20/07/22)"
+  },
+  {
+    "id": 4,
+    "type": "goal unfinished",
+    "date": "23 | 04 | 2022",
+    "desc": "Activity-text template. Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 5,
+    "type": "law broken",
+    "date": "18 | 08 | 2022",
+    "desc": "Activity-text template. Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 6,
+    "type": "law broken",
+    "date": "19 | 04 | 2022",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime officia delectus totam ut rerum harum illum dicta sapiente laboriosam consectetur?"
+  },
+  {
+    "id": 7,
+    "type": "goal unfinished",
+    "date": "27 | 01 | 2022",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime officia delectus totam ut rerum harum illum dicta sapiente laboriosam consectetur?"
+  },
+  {
+    "id": 8,
+    "type": "goal achieved",
+    "date": "21 | 02 | 2022",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime officia delectus totam ut rerum harum illum dicta sapiente laboriosam consectetur?"
+  }
+]

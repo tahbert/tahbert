@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  h1 {
+    flex: 30%;
+  }
+  @include breakpoint(478px) {
+    padding: 0 16px;
+  }
+}
+.main-nav .main-nav-item {
+  border: 2px solid transparent;
+  &.active {
+    border: 2px solid $grey900;
+  }
+  &:hover {
+    background: $grey200;
+  }
+}

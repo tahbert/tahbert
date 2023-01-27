@@ -1,0 +1,279 @@
+// box mixin
+// --------------------------------------------------------------------------------
+@mixin box {
+  background: white;
+  border-radius: 16px;
+  &_header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 54px;
+    padding: 0 16px;
+    border-radius: 16px 16px 0 0;
+    h2 {
+      margin-right: auto;
+    }
+  }
+}
+
+// feed-box
+// --------------------------------------------------------------------------------
+.feed-box {
+  @include box;
+  &_body {
+    padding: 16px;
+    &:hover {
+      background: $grey100;
+      cursor: pointer;
+    }
+    &.active:hover {
+      cursor: revert;
+      background: revert;
+    }
+    .tag {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      padding: 8px 0;
+    }
+    .tag a {
+      color: $primaryColor;
+      @include on-event {
+        color: $grey900;
+        text-decoration: underline;
+      }
+    }
+  }
+  @include breakpoint(478px) {
+    border-radius: 0px;
+  }
+}
+.feed-title {
+  font-family: $secondaryFont;
+  color: $primaryColor;
+}
+
+// inf-box
+// -----------------------------------------------------------------------------
+// goal-box
+// -----------------------------------------------------------------------------
+// law-box
+// -----------------------------------------------------------------------------
+.inf-box {
+  @include box;
+  background: $grey100;
+  &_body {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+  }
+}
+.inf-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 16px;
+}
+.inf-text {
+  margin-right: auto;
+  span {
+    font-size: 14px;
+    color: $grey600;
+  }
+}
+
+// activity-box
+// -----------------------------------------------------------------------------
+.activity-box {
+  @include box;
+  position: relative;
+  background: transparent; /* reset */
+  &_header {
+    position: absolute;
+    padding: 0; /* reset */
+    height: auto; /* reset */
+    width: 100%;
+    h2 {
+      margin-right: auto;
+    }
+    @include breakpoint(478px) {
+      span {
+        align-self: flex-end;
+      }
+    }
+  }
+  &_footer {
+    margin-left: 20px;
+    padding: 16px 0 16px 16px;
+    border-left: 1.5px solid $tertiaryColor;
+    .date {
+      padding: 16px 0 4px 16px;
+    }
+    p {
+      padding: 16px;
+      border-radius: 16px;
+      background: $grey100;
+    }
+    @include breakpoint(478px) {
+      .date {
+        padding: 26px 0 4px 16px;
+      }
+    }
+  }
+}
+.activity-text {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  @include breakpoint(478px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    margin-right: auto;
+    span {
+      font-size: 14px;
+    }
+  }
+}
+
+// noti-box
+// -----------------------------------------------------------------------------
+.noti-box_wrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.noti-box {
+  @include box;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  width: 320px;
+  background: $grey50;
+  box-shadow: $closeShadow;
+  z-index: $notiIndex;
+  &.active {
+    display: block;
+  }
+  &_header {
+    background: $grey100;
+  }
+  &_body {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px;
+  }
+  @include breakpoint(680px) {
+    right: -56px;
+  }
+  @include breakpoint(478px) {
+    right: -48px;
+  }
+}
+.noti-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 16px;
+  cursor: pointer;
+  &:hover {
+    background: $grey100;
+  }
+}
+.noti-dot {
+  width: 10px;
+  height: 10px;
+  background: $primaryColor;
+  border-radius: 50%;
+}
+.noti-item.readed .noti-dot {
+  background: $tertiaryColor;
+}
+.noti-text {
+  margin-right: auto;
+  span {
+    color: $grey800;
+    font-size: 14px;
+  }
+}
+.noti-badge {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  background: $secondaryColor;
+  border-radius: 50%;
+  user-select: none;
+}
+
+// feedback-box
+// -----------------------------------------------------------------------------
+.feedback-box_wrapper {
+  position: relative;
+}
+.feedback-box {
+  @include box;
+  display: none;
+  position: absolute;
+  top: 36px;
+  right: 0;
+  z-index: 10;
+  width: 220px;
+  box-shadow: $closeShadow;
+  background: white;
+  z-index: $feedbackIndex;
+  &.active {
+    display: block;
+  }
+  &_body {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 0;
+  }
+}
+.feedback-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  font-size: 15px;
+  &:hover {
+    background: $grey100;
+  }
+}
+
+// tag-box
+// -----------------------------------------------------------------------------
+.tag-box {
+  @include box;
+  background: $grey100;
+  &_body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 16px;
+  }
+  &_body a {
+    font-family: "Poppins", sans-serif;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-size: 14px;
+    color: black;
+    background: $grey50;
+    @include on-event {
+      color: $primaryColor;
+      text-decoration: underline;
+      background: white;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+// scrollbar
+// -----------------------------------------------------------------------------
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px $grey200;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: $grey200;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: $grey500;
+}
+
+// form
+// -----------------------------------------------------------------------------
+::placeholder {
+  color: $grey700;
+}

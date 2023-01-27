@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "noti": "have added a new feed",
+    "icon": "feed"
+  },
+  {
+    "id": 2,
+    "noti": "have a new achievement",
+    "icon": "happy"
+  },
+  {
+    "id": 3,
+    "noti": "have gain a new skill",
+    "icon": "happy"
+  },
+  {
+    "id": 4,
+    "noti": "have lost the game",
+    "icon": "sad"
+  },
+  {
+    "id": 5,
+    "noti": "have lost his girlfriend",
+    "icon": "sad"
+  }
+]

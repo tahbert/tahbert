@@ -1,0 +1,14 @@
+[
+  {
+    "nav": "Feed",
+    "items": ["All", "Gardenia", "Daughter", "Son", "Papa", "Mum", "Nana"]
+  },
+  {
+    "nav": "Activities",
+    "items": ["All", "New", "Achieved", "Unfinished", "Broken"]
+  },
+  {
+    "nav": "About",
+    "items": ["Overview", "Iconic Work"]
+  }
+]

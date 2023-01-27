@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "icon": "heart",
+    "title": "Love",
+    "desc": "no sex before marriage",
+    "percent": "100%"
+  },
+  {
+    "id": 2,
+    "icon": "smoking",
+    "title": "Health",
+    "desc": "no smoking",
+    "percent": "100%"
+  },
+  {
+    "id": 3,
+    "icon": "alcohol",
+    "title": "Health",
+    "desc": "no alcoholic drink",
+    "percent": "100%"
+  }
+]

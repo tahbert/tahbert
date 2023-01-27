@@ -1,0 +1,506 @@
+[
+  {
+    "title": "Tahbert Zeitgeist",
+    "icon": "zeitgeist",
+    "desc": "Tahbert Zeitgeist template for main-review of each categories. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "infs": [
+      {
+        "name": "Van Kham",
+        "job": "Chatholic Bishop",
+        "rank": "love",
+        "overview": "Tahbert haven't shared any thought about this influencer",
+        "work": "Iconic work of this influencer haven't updated yet"
+      },
+      {
+        "name": "Joseph Ratzinger",
+        "job": "Chatholic Pope",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Karol Wojtyła",
+        "job": "Chatholic Pope",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Therese of Lisieux",
+        "job": "Chatholic Saint",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Minh Niem",
+        "job": "Buddhism Monk",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Augustine",
+        "job": "Chatholic Saint",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Francis of Assisi",
+        "job": "Chatholic Saint",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Zhuge Liang",
+        "job": "Mastermind",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Louis Martin",
+        "job": "Chatholic Saint",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Nguyen Trai",
+        "job": "Mastermind",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      }
+    ]
+  },
+  {
+    "title": "Tahbert Tech",
+    "icon": "tech",
+    "desc": "Tech template for main-review of each categories. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "infs": [
+      {
+        "name": "Huong Nguyen",
+        "job": "Frontend Engineer",
+        "rank": "love",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Kyle Cook",
+        "job": "Frontend Engineer",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Quincy Larson",
+        "job": "Freecodecamp Founder",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Jordan Walke",
+        "job": "React Creator",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      }
+    ]
+  },
+  {
+    "title": "Tahbert Music",
+    "icon": "music",
+    "desc": "Tahbert Music template for main-review of each categories. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "infs": [
+      {
+        "name": "Hans Zimmer",
+        "job": "Film Music Composer",
+        "rank": "love",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Steven Price",
+        "job": "Film Music Composer",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Newton Howard",
+        "job": "Film Music Composer",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Lisa Gerrard",
+        "job": "Singer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Trong Ly",
+        "job": "Singer & Composer",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Daft Punk",
+        "job": "Music Composer",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Joe Hisaishi",
+        "job": "Film Music Composer",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Nicholas Britell",
+        "job": "Film Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Patrick Doyle",
+        "job": "Film Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Rachel Portman",
+        "job": "Film Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Rachmaninoff",
+        "job": "Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+
+      {
+        "name": "Craig Armstrong",
+        "job": "Film Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Dario Marianelli",
+        "job": "Film Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Enya",
+        "job": "Film Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+
+      {
+        "name": "Jacob Shea",
+        "job": "Film Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+
+      {
+        "name": "James Horner",
+        "job": "Film Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Jiang Ying",
+        "job": "Film Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+
+      {
+        "name": "Ryuichi Sakamoto",
+        "job": "Film Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Tan Dun",
+        "job": "Film Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+
+      {
+        "name": "Ludovico Einaudi",
+        "job": "Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Mark Crawford",
+        "job": "Film Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Max Richter",
+        "job": "Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Yann Tiersen",
+        "job": "Film Music Composer",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      }
+    ]
+  },
+  {
+    "title": "Tahbert Sports",
+    "icon": "sports",
+    "desc": "Tahbert Sports template for main-review of each categories. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "infs": [
+      {
+        "name": "Schweinsteiger",
+        "job": "Soccer Player",
+        "rank": "love",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+
+      {
+        "name": "Yuna Kim",
+        "job": "Figure Skater",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+
+      {
+        "name": "Sadio Mané",
+        "job": "Soccer Player",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Shi Tingmao",
+        "job": "Diver",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Niki Lauda",
+        "job": "Formula One Driver",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+
+      {
+        "name": "Frenkie de Jong",
+        "job": "Soccer Player",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Roger Federer",
+        "job": "Tennis Player",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Luka Modrić",
+        "job": "Soccer Player",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+
+      {
+        "name": "N'Golo Kanté",
+        "job": "Soccer Player",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+
+      {
+        "name": "Edinson Cavani",
+        "job": "Soccer Player",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+
+      {
+        "name": "David Beckham",
+        "job": "Soccer Player",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+
+      {
+        "name": "Steven Gerrard",
+        "job": "Soccer Player",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+
+      {
+        "name": "Ivan Rakitić",
+        "job": "Soccer Player",
+        "rank": "star",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      }
+    ]
+  },
+  {
+    "title": "Tahbert Health",
+    "icon": "health",
+    "desc": "This is a template for main-review of each categories. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "infs": [
+      {
+        "name": "Dummy",
+        "job": "dummy job",
+        "rank": "love",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      }
+    ]
+  },
+  {
+    "title": "Tahbert Cooking",
+    "icon": "cooking",
+    "desc": "Tahbert Cooking template for main-review of each categories. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "infs": [
+      {
+        "name": "Dummy",
+        "job": "dummy job",
+        "rank": "love",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      }
+    ]
+  },
+  {
+    "title": "Tahbert Discovery",
+    "icon": "discovery",
+    "desc": "Tahbert Discovery template for main-review of each categories. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "infs": [
+      {
+        "name": "Matthew Walker",
+        "job": "Sleep Scientist",
+        "rank": "love",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Albert Einstein",
+        "job": "Scientist",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Blaise Pascal",
+        "job": "Scientist",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Thomas Edison",
+        "job": "Scientist",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      }
+    ]
+  },
+  {
+    "title": "Tahbert Finance",
+    "icon": "finance",
+    "desc": "This is a template for main-review of each categories. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "infs": [
+      {
+        "name": "Dummy",
+        "job": "dummy job",
+        "rank": "love",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      }
+    ]
+  },
+  {
+    "title": "Tahbert Entertainment",
+    "icon": "entertainment",
+    "desc": "Tahbert Entertainment template for main-review of each categories. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "infs": [
+      {
+        "name": "Jeff Dunham",
+        "job": "Ventriloquist",
+        "rank": "love",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+
+      {
+        "name": "Rowan Atkinson",
+        "job": "English Actor",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Tran Anh Hung",
+        "job": "Film Director",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      },
+      {
+        "name": "Christopher Nolan",
+        "job": "Film Director",
+        "rank": "verified",
+        "overview": "Overview text template Hans Florian Zimmer is a German film score composer and music producer. He has won two Oscars and four Grammys, and has been nominated for two Emmys and a Tony. Zimmer was also named on the list of Top 100 Living Geniuses, published by The Daily Telegraph.",
+        "work": "Iconic work template: From Dune to The Lion King, German-born composer Hans Zimmer has penned some of the most thrilling film scores of the last 30 years. Here are his greatest soundtracks to date (no questions asked)."
+      }
+    ]
+  }
+]

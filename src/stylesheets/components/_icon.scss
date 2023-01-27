@@ -1,0 +1,136 @@
+// ----------------------------------------------------------------
+@mixin icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  user-select: none;
+}
+// ----------------------------------------------------------------
+.icon--menu {
+  @include icon;
+  &.active {
+    rect:first-child {
+      fill: #f2a33b;
+      transition: all 1s;
+    }
+    rect:nth-child(2) {
+      fill: #c0c0c0;
+      transition: all 1.2s;
+    }
+    rect:nth-child(3) {
+      fill: #bb0e0f;
+      transition: all 0.8s;
+    }
+    rect:last-child {
+      fill: #000000;
+      transition: all 0.6;
+    }
+  }
+}
+.icon {
+  @include icon;
+  width: 20px;
+  height: 20px;
+}
+.icon--feedback {
+  @include icon;
+  width: 20px;
+  height: 20px;
+}
+.icon--activity {
+  @include icon;
+}
+.icon--rank,
+.icon--job {
+  @include icon;
+  width: 26px;
+  height: 26px;
+}
+
+.icon--search {
+  position: absolute;
+  width: 40px;
+  padding: 8px;
+  height: auto;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.icon--noti {
+  @include icon;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 50%;
+  background: $grey200;
+  &:hover {
+    background: $grey200;
+  }
+  &:active {
+    width: 38px;
+  }
+}
+.icon--dots {
+  @include icon;
+  width: 34px;
+  height: 34px;
+  padding: 8px;
+  border-radius: 50%;
+  background: $grey50;
+  transition: border 0.2s;
+  &:hover {
+    background: $grey200;
+  }
+  &.active {
+    background: $grey200;
+  }
+}
+.icon--music {
+  @include icon;
+  width: 28px;
+  height: 28px;
+  &.playing {
+    animation: rotate 3s infinite linear;
+  }
+}
+.icon--close {
+  @include icon;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(100%, -100%);
+  font-variation-settings: "FILL" 1;
+  font-size: 32px;
+  border-radius: 50%;
+  color: $tertiaryColor;
+  @include breakpoint(478px) {
+    top: 100%;
+    right: 50%;
+    transform: translate(50%, 0);
+  }
+}
+.icon--close-tag {
+  @include icon;
+  width: 22px;
+  height: 22px;
+}
+.icon--disc {
+  @include icon;
+  width: 20px;
+  height: 20px;
+  display: inline;
+  margin: 0 0 -4px 8px;
+  &.active {
+    animation: rotate 3s infinite linear;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
