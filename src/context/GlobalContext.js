@@ -154,6 +154,10 @@ const AppProvider = ({ children }) => {
   // toggle HeaderNav
   const [toggleHeaderNav, setHeaderNav] = useState(false);
 
+  // active Feed and Activity
+  const [activeFeed, setActiveFeed] = useState(null);
+  const [activeAct, setActiveAct] = useState(null);
+
   return (
     <AppContext.Provider
       value={{
@@ -171,6 +175,10 @@ const AppProvider = ({ children }) => {
         setCateKey,
         tagKey,
         setTagKey,
+        activeFeed,
+        setActiveFeed,
+        activeAct,
+        setActiveAct,
       }}
     >
       {children}

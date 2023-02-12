@@ -95,10 +95,6 @@ textarea {
   color: unset;
 }
 
-:-ms-input-placeholder {
-  color: unset;
-}
-
 ::placeholder {
   color: unset;
 }
@@ -166,10 +162,6 @@ pre {
 }
 
 ::-moz-placeholder {
-  color: #434343;
-}
-
-:-ms-input-placeholder {
   color: #434343;
 }
 
@@ -362,7 +354,6 @@ h3 a {
   letter-spacing: 1.2px;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .logo_box {
@@ -739,7 +730,6 @@ h3 a {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .icon--menu.active rect:first-child {
@@ -765,7 +755,6 @@ h3 a {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   width: 20px;
   height: 20px;
@@ -777,7 +766,6 @@ h3 a {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   width: 20px;
   height: 20px;
@@ -789,7 +777,6 @@ h3 a {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 
@@ -800,7 +787,6 @@ h3 a {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   width: 26px;
   height: 26px;
@@ -822,7 +808,6 @@ h3 a {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   width: 40px;
   height: 40px;
@@ -843,7 +828,6 @@ h3 a {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   width: 34px;
   height: 34px;
@@ -865,14 +849,12 @@ h3 a {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   width: 28px;
   height: 28px;
 }
 .icon--music.playing {
-  -webkit-animation: rotate 3s infinite linear;
-          animation: rotate 3s infinite linear;
+  animation: rotate 3s infinite linear;
 }
 
 .icon--close {
@@ -881,7 +863,6 @@ h3 a {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   width: 34px;
   height: 34px;
@@ -908,7 +889,6 @@ h3 a {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   width: 22px;
   height: 22px;
@@ -920,7 +900,6 @@ h3 a {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   width: 20px;
   height: 20px;
@@ -928,16 +907,7 @@ h3 a {
   margin: 0 0 -4px 8px;
 }
 .icon--disc.active {
-  -webkit-animation: rotate 3s infinite linear;
-          animation: rotate 3s infinite linear;
-}
-@-webkit-keyframes rotate {
-  from {
-    transform: rotate(0);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  animation: rotate 3s infinite linear;
 }
 @keyframes rotate {
   from {
@@ -959,7 +929,6 @@ h3 a {
   background-clip: content-box, border-box;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .avatar img {
@@ -1109,7 +1078,6 @@ h3 a {
 }
 
 .swiper_slide_nav {
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -1283,6 +1251,7 @@ h3 a {
 .feed-box {
   background: white;
   border-radius: 16px;
+  border-radius: 16px 16px 0 0;
 }
 .feed-box_header {
   display: flex;
@@ -1294,6 +1263,9 @@ h3 a {
 }
 .feed-box_header h2 {
   margin-right: auto;
+}
+.feed-box.active {
+  border: 2px solid #f2a33b;
 }
 .feed-box_body {
   padding: 16px;
@@ -1407,10 +1379,13 @@ h3 a {
 .activity-box_footer .date {
   padding: 16px 0 4px 16px;
 }
-.activity-box_footer p {
+.activity-box_footer .text {
   padding: 16px;
   border-radius: 16px;
   background: #e9e9e9;
+}
+.activity-box_footer .text.active {
+  border: 2px solid #f2a33b;
 }
 @media (max-width: 478px) {
   .activity-box_footer .date {
@@ -1534,7 +1509,6 @@ h3 a {
   border-radius: 50%;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 

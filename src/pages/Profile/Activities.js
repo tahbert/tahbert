@@ -33,7 +33,7 @@ const handleDesc = (type) => {
 };
 
 const Activities = ({ activities }) => {
-  const { state } = useGlobalContext();
+  const { state, activeAct } = useGlobalContext();
   const Data = state.actData;
 
   if (state.isLoading) {
@@ -43,6 +43,7 @@ const Activities = ({ activities }) => {
     if (activities === "All") {
       newData = Data;
     } else {
+      console.log(Data);
       newData = Data.filter(
         (i) => i.attributes.activity_nav.data.attributes.name === activities
       );
@@ -65,7 +66,9 @@ const Activities = ({ activities }) => {
 
               <div className="activity-box_footer">
                 <div className="date">{updatedAt.slice(0, 10)}</div>
-                <p>{desc}</p>
+                <p className={activeAct === id ? "text active" : "text"}>
+                  {desc}
+                </p>
               </div>
             </div>
           );

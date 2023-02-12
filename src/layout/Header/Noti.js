@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Noti = () => {
   // get the most recent feeds or activities
-  const { state } = useGlobalContext();
+  const { state, setActiveFeed, setActiveAct } = useGlobalContext();
 
   // toggle Noti box
   const [show, setShow] = useState(false);
@@ -15,8 +15,8 @@ const Noti = () => {
   useOverlay(overlayEl, setShow);
 
   // mark readed
-  const [activeFeed, setFeedActive] = useState([]);
-  const [activeAct, setActActive] = useState([]);
+  const [recentFeeds, setRecentFeeds] = useState([]);
+  const [recentActs, setRecentActs] = useState([]);
 
   useEffect(() => {
     if (state.isLoading) {
@@ -29,25 +29,25 @@ const Noti = () => {
         now.getDate() - 7
       );
 
-      const recentFeeds = state.feedData.filter(
+      const filteredFeeds = state.feedData.filter(
         (i) => new Date(i.attributes.date) >= lastWeek
       );
-      setFeedActive(recentFeeds);
+      setRecentFeeds(filteredFeeds);
 
-      const recentActs = state.actData.filter(
+      const filterActs = state.actData.filter(
         (i) => new Date(i.attributes.updatedAt) >= lastWeek
       );
-      setActActive(recentActs);
+      setRecentActs(filterActs);
     }
   }, [state]);
 
   const deleteNotiFeed = (id) => {
-    const newData = activeFeed.filter((data) => data.id !== id);
-    setFeedActive(newData);
+    const newData = recentFeeds.filter((data) => data.id !== id);
+    setRecentFeeds(newData);
   };
   const deleteNotiActivity = (id) => {
-    const newData = activeAct.filter((data) => data.id !== id);
-    setActActive(newData);
+    const newData = recentActs.filter((data) => data.id !== id);
+    setRecentActs(newData);
   };
 
   const handleText = (type) => {
@@ -81,7 +81,9 @@ const Noti = () => {
   return (
     <div className="noti-box_wrapper">
       <NotiIcon className="icon--noti" onClick={() => setShow(!show)} />
-      <span className="noti-badge">{activeFeed.length + activeAct.length}</span>
+      <span className="noti-badge">
+        {recentFeeds.length + recentActs.length}
+      </span>
       <div
         className={show ? "overlay active" : "overlay"}
         ref={overlayEl}
@@ -92,18 +94,18 @@ const Noti = () => {
         </div>
 
         <div className="noti-box_body">
-          {activeFeed.length + activeAct.length === 0 && (
+          {recentFeeds.length + recentActs.length === 0 && (
             <p className="nothing">nothing new</p>
           )}
 
           {/* listing recent feeds */}
-          {activeFeed.map((data) => {
+          {recentFeeds.map((data) => {
             const { id } = data;
             return (
               <Link
                 href="#noti"
                 className={
-                  activeFeed.find((c) => c.id === id)
+                  recentFeeds.find((c) => c.id === id)
                     ? "noti-item"
                     : "noti-item readed"
                 }
@@ -112,6 +114,7 @@ const Noti = () => {
                 onClick={() => {
                   setShow(!show);
                   deleteNotiFeed(id);
+                  setActiveFeed(id);
                 }}
               >
                 <span className="noti-dot"></span>
@@ -130,14 +133,14 @@ const Noti = () => {
           })}
 
           {/* listing recent activities */}
-          {activeAct.map((data) => {
+          {recentActs.map((data) => {
             const { id } = data;
             const { type } = data.attributes;
             return (
               <Link
                 href="#noti"
                 className={
-                  activeAct.find((c) => c.id === id)
+                  recentActs.find((c) => c.id === id)
                     ? "noti-item"
                     : "noti-item readed"
                 }
@@ -146,6 +149,7 @@ const Noti = () => {
                 onClick={() => {
                   setShow(!show);
                   deleteNotiActivity(id);
+                  setActiveAct(id);
                 }}
               >
                 <span className="noti-dot"></span>

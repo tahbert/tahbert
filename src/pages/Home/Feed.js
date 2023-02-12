@@ -19,6 +19,8 @@ const Feed = ({
 }) => {
   const imgName = img?.data.attributes.name; // img is optional
 
+  const { activeFeed } = useGlobalContext();
+
   // hightlight searching
   const createMarkup = (html) => {
     return { __html: html };
@@ -38,7 +40,7 @@ const Feed = ({
   };
 
   return (
-    <div className="feed-box">
+    <div className={id === activeFeed ? "feed-box active" : "feed-box"}>
       <div className="feed-box_header">
         <Avatar className="avatar small" path="./profile" />
         <h2>

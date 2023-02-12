@@ -20,6 +20,10 @@
 // --------------------------------------------------------------------------------
 .feed-box {
   @include box;
+  border-radius: 16px 16px 0 0;
+  &.active {
+    border: 2px solid $secondaryColor;
+  }
   &_body {
     padding: 16px;
     &:hover {
@@ -110,10 +114,13 @@
     .date {
       padding: 16px 0 4px 16px;
     }
-    p {
+    .text {
       padding: 16px;
       border-radius: 16px;
       background: $grey100;
+      &.active {
+        border: 2px solid $secondaryColor;
+      }
     }
     @include breakpoint(478px) {
       .date {
