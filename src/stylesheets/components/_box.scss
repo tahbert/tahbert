@@ -22,10 +22,14 @@
   @include box;
   border-radius: 16px 16px 0 0;
   &.active {
-    border: 2px solid $secondaryColor;
+    border: 2px solid $blue;
+  }
+  &_header {
+    height: auto;
+    padding: 16px 16px 8px;
   }
   &_body {
-    padding: 16px;
+    padding: 0 16px;
     &:hover {
       background: $grey100;
       cursor: pointer;
@@ -119,7 +123,7 @@
       border-radius: 16px;
       background: $grey100;
       &.active {
-        border: 2px solid $secondaryColor;
+        border: 2px solid $blue;
       }
     }
     @include breakpoint(478px) {
