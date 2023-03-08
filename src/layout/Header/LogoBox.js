@@ -10,7 +10,7 @@ const LogoBox = ({ toggleHeaderNav, setHeaderNav }) => {
         onClick={() => setHeaderNav(!toggleHeaderNav)}
       />
       <Link className="logo" to="/">
-        tahbert.one
+        tahbert.com
       </Link>
     </div>
   );

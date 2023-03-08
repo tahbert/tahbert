@@ -731,6 +731,8 @@ h3 a {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  width: 40px;
+  height: 40px;
 }
 .icon--menu.active rect:first-child {
   fill: #f2a33b;

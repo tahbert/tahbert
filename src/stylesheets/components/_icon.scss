@@ -8,6 +8,8 @@
 // ----------------------------------------------------------------
 .icon--menu {
   @include icon;
+  width: 40px;
+  height: 40px;
   &.active {
     rect:first-child {
       fill: #f2a33b;
