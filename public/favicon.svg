@@ -1,12 +1,5 @@
-<svg width="120" height="100" viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 0L120 0V100H0L0 0Z" fill="black"/>
-<path d="M0 0L13.3333 0L13.3333 100H0L0 0Z" fill="black"/>
-<path d="M13.3333 0L26.6666 0L26.6666 100H13.3333L13.3333 0Z" fill="#2B0509"/>
-<path d="M26.6667 0L40 0L40 100H26.6667L26.6667 0Z" fill="#560911"/>
-<path d="M40 0L53.3333 0L53.3333 100H40L40 0Z" fill="#810D1A"/>
-<path d="M53.3334 0L66.6667 0V100H53.3334L53.3334 0Z" fill="#AB1122"/>
-<path d="M66.6666 0L80 0V100H66.6666V0Z" fill="#C0301C"/>
-<path d="M80 0L93.3333 0V100H80V0Z" fill="#D54F16"/>
-<path d="M93.3333 0L106.667 0V100H93.3333V0Z" fill="#EA6E10"/>
-<path d="M106.667 0L120 0V100H106.667V0Z" fill="#FF8D0A"/>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="600" fill="black"/>
+<rect y="400" width="800" height="200" fill="#CCCCCC"/>
+<rect y="200" width="800" height="200" fill="#CC0000"/>
 </svg>

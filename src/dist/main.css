@@ -184,7 +184,7 @@ p {
 }
 
 a:hover {
-  color: #bb0e0f;
+  color: #c00000;
 }
 
 img {
@@ -237,11 +237,11 @@ h3 a {
 
 .percen {
   font-weight: 600;
-  color: #bb0e0f;
+  color: #c00000;
 }
 
 .sec-text {
-  color: #bb0e0f;
+  color: #c00000;
 }
 
 .date {
@@ -259,12 +259,12 @@ h3 a {
   padding-top: 10%;
 }
 .error-page h1 {
-  color: #bb0e0f;
+  color: #c00000;
 }
 
 .error_section {
   padding: 80px 0;
-  color: #bb0e0f;
+  color: #c00000;
   text-align: center;
   background: #d9d9d9;
 }
@@ -293,7 +293,7 @@ h3 a {
   font-family: "Nunito", sans-serif;
   font-size: 20px;
   font-weight: 600;
-  color: #bb0e0f;
+  color: #c00000;
   background: rgba(187, 14, 15, 0.1254901961);
 }
 
@@ -320,7 +320,7 @@ h3 a {
 .nothing {
   text-align: center;
   padding: 20px;
-  color: #bb0e0f;
+  color: #c00000;
 }
 
 .header {
@@ -451,7 +451,7 @@ h3 a {
   color: #434343;
 }
 .aside_info_name:hover, .aside_info_name:active, .aside_info_name:focus, .aside_info_name:focus-within {
-  color: #bb0e0f;
+  color: #c00000;
   text-decoration: underline;
 }
 .aside_info_statics {
@@ -472,7 +472,7 @@ h3 a {
   font-size: 15px;
 }
 .aside_info_title:hover, .aside_info_title:active, .aside_info_title:focus, .aside_info_title:focus-within {
-  color: #bb0e0f;
+  color: #c00000;
   text-decoration: underline;
 }
 .aside_info_numb {
@@ -705,7 +705,7 @@ h3 a {
   padding: 0;
 }
 .btn--link:hover, .btn--link:active, .btn--link:focus, .btn--link:focus-within {
-  color: #bb0e0f;
+  color: #c00000;
   text-decoration: underline;
 }
 
@@ -875,7 +875,7 @@ h3 a {
   font-variation-settings: "FILL" 1;
   font-size: 32px;
   border-radius: 50%;
-  color: #c0c0c0;
+  color: #cccccc;
 }
 @media (max-width: 478px) {
   .icon--close {
@@ -926,7 +926,7 @@ h3 a {
   min-height: 100px;
   border: 1.2px solid transparent;
   border-radius: 50%;
-  background-image: linear-gradient(#f5f5f5, #f5f5f5), linear-gradient(45deg, #000000, #bb0e0f, #c0c0c0);
+  background-image: linear-gradient(#f5f5f5, #f5f5f5), linear-gradient(45deg, #000000, #c00000, #cccccc);
   background-origin: border-box;
   background-clip: content-box, border-box;
   -webkit-user-select: none;
@@ -1076,7 +1076,7 @@ h3 a {
 .swiper_nav {
   padding: 0;
   border-radius: 32px;
-  box-shadow: inset -6px 0 6px -7px #c0c0c0, inset 6px 0 6px -7px #c0c0c0;
+  box-shadow: inset -6px 0 6px -7px #cccccc, inset 6px 0 6px -7px #cccccc;
 }
 
 .swiper_slide_nav {
@@ -1133,7 +1133,7 @@ h3 a {
   color: #434343;
 }
 .swiper_text_name:hover {
-  color: #bb0e0f !important;
+  color: #c00000 !important;
 }
 .swiper_text_job {
   font-family: "Nunito", sans-serif;
@@ -1291,7 +1291,7 @@ h3 a {
   padding: 8px 0;
 }
 .feed-box_body .tag a {
-  color: #bb0e0f;
+  color: #c00000;
 }
 .feed-box_body .tag a:hover, .feed-box_body .tag a:active, .feed-box_body .tag a:focus, .feed-box_body .tag a:focus-within {
   color: #000000;
@@ -1305,7 +1305,7 @@ h3 a {
 
 .feed-title {
   font-family: "ProximaNova", sans-serif;
-  color: #bb0e0f;
+  color: #c00000;
 }
 
 .inf-box {
@@ -1380,7 +1380,7 @@ h3 a {
 .activity-box_footer {
   margin-left: 20px;
   padding: 16px 0 16px 16px;
-  border-left: 1.5px solid #c0c0c0;
+  border-left: 1.5px solid #cccccc;
 }
 .activity-box_footer .date {
   padding: 16px 0 4px 16px;
@@ -1483,12 +1483,12 @@ h3 a {
 .noti-dot {
   width: 10px;
   height: 10px;
-  background: #bb0e0f;
+  background: #c00000;
   border-radius: 50%;
 }
 
 .noti-item.readed .noti-dot {
-  background: #c0c0c0;
+  background: #cccccc;
 }
 
 .noti-text {
@@ -1503,7 +1503,6 @@ h3 a {
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
-  font-weight: 600;
   position: absolute;
   top: -4px;
   right: -4px;
@@ -1511,7 +1510,8 @@ h3 a {
   height: 18px;
   text-align: center;
   line-height: 18px;
-  background: #f2a33b;
+  color: white;
+  background: #c00000;
   border-radius: 50%;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -1596,7 +1596,7 @@ h3 a {
   background: #f5f5f5;
 }
 .tag-box_body a:hover, .tag-box_body a:active, .tag-box_body a:focus, .tag-box_body a:focus-within {
-  color: #bb0e0f;
+  color: #c00000;
   text-decoration: underline;
   background: white;
 }/*# sourceMappingURL=main.css.map */

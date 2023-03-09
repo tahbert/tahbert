@@ -215,7 +215,6 @@
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
-  font-weight: 600;
   position: absolute;
   top: -4px;
   right: -4px;
@@ -223,7 +222,8 @@
   height: 18px;
   text-align: center;
   line-height: 18px;
-  background: $secondaryColor;
+  color: white;
+  background: $primaryColor;
   border-radius: 50%;
   user-select: none;
 }
