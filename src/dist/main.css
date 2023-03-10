@@ -731,24 +731,13 @@ h3 a {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
+  transition: all 0.3s;
 }
-.icon--menu.active rect:first-child {
-  fill: #f2a33b;
-  transition: all 1s;
-}
-.icon--menu.active rect:nth-child(2) {
-  fill: #c0c0c0;
-  transition: all 1.2s;
-}
-.icon--menu.active rect:nth-child(3) {
-  fill: #bb0e0f;
-  transition: all 0.8s;
-}
-.icon--menu.active rect:last-child {
-  fill: #000000;
-  transition: all 0.6;
+.icon--menu.active {
+  transform: rotate(-90deg);
+  transition: all 0.3s;
 }
 
 .icon {
