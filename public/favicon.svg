@@ -1,6 +1,5 @@
 <svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="800" height="600" fill="#CCCCCC"/>
-<rect x="50" y="50" width="200" height="500" fill="#CC0000"/>
-<path d="M550 50H750V550H550V50Z" fill="#0C7ADD"/>
-<path d="M300 50H500V550H300V50Z" fill="black"/>
+<rect x="300" width="200" height="600" fill="#CC0000"/>
+<path d="M600 0H800V600H600V0Z" fill="#CCCCCC"/>
+<path d="M0 0H200V600H0V0Z" fill="black"/>
 </svg>
