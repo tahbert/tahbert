@@ -22,7 +22,7 @@
   @include box;
   border-radius: 16px 16px 0 0;
   &.active {
-    border: 2px solid $blue;
+    border: 2px solid $tertiaryColor;
   }
   &_header {
     height: auto;
@@ -114,7 +114,7 @@
   &_footer {
     margin-left: 20px;
     padding: 16px 0 16px 16px;
-    border-left: 1.5px solid $tertiaryColor;
+    border-left: 1.5px solid $secondaryColor;
     .date {
       padding: 16px 0 4px 16px;
     }
@@ -123,7 +123,7 @@
       border-radius: 16px;
       background: $grey100;
       &.active {
-        border: 2px solid $blue;
+        border: 2px solid $tertiaryColor;
       }
     }
     @include breakpoint(478px) {
@@ -202,7 +202,7 @@
   border-radius: 50%;
 }
 .noti-item.readed .noti-dot {
-  background: $tertiaryColor;
+  background: $secondaryColor;
 }
 .noti-text {
   margin-right: auto;

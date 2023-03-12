@@ -915,7 +915,7 @@ h3 a {
   min-height: 100px;
   border: 1.2px solid transparent;
   border-radius: 50%;
-  background-image: linear-gradient(#f5f5f5, #f5f5f5), linear-gradient(45deg, #000000, #c00000, #cccccc);
+  background-image: linear-gradient(#f5f5f5, #f5f5f5), linear-gradient(45deg, black, #c00000, #cccccc);
   background-origin: border-box;
   background-clip: content-box, border-box;
   -webkit-user-select: none;

@@ -5,7 +5,7 @@
   border: 1.2px solid transparent;
   border-radius: 50%;
   background-image: linear-gradient($grey50, $grey50),
-    linear-gradient(45deg, $grey900, $primaryColor, $tertiaryColor);
+    linear-gradient(45deg, black, $primaryColor, $secondaryColor);
   background-origin: border-box;
   background-clip: content-box, border-box;
   user-select: none;

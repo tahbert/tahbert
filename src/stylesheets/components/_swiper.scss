@@ -16,8 +16,8 @@
 .swiper_nav {
   padding: 0;
   border-radius: 32px;
-  box-shadow: inset -6px 0 6px -7px $tertiaryColor,
-    inset 6px 0 6px -7px $tertiaryColor;
+  box-shadow: inset -6px 0 6px -7px $secondaryColor,
+    inset 6px 0 6px -7px $secondaryColor;
 }
 .swiper_slide_nav {
   @extend .swiper_slide;
